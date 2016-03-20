@@ -26,3 +26,15 @@
 *.exe
 *.out
 *.app
+*.gcda
+Makefile
+*.gcov
+*.gcda
+*.gcno
+*qmake_gcov
+*.pro.user
+travis_qmake_gcc_cpp98_gcov
+travis_qmake_gcc_cpp98_gcov
+travis_qmake_gcc_cpp98_gcov_gcov
+travis_qmake_gcc_cpp11_gcov_gcov
+travis_qmake_gcc_cpp11_gcov
