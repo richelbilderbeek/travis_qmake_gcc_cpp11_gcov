@@ -9,6 +9,7 @@ before_install:
 
 install: 
   - sudo apt-get install -qq g++-5
+  - sudo apt-get install -qq gcov-5
 
 script: 
   - ./build.sh
