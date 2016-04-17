@@ -19,8 +19,11 @@ The goal of this project is to have a clean Travis CI build, with specs:
 
 Additionally, the code coverage should be measured by CodeCov.
 
+More complex builds:
+ * gcov in debug mode only: [travis_qmake_gcc_cpp11_debug_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_debug_gcov)
+ * C++14: [travis_qmake_gcc_cpp14_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gcov)
+
 Less complex builds:
  * C++98: [travis_qmake_gcc_cpp98_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_gcov)
+ * No gcov: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
 
-More complex builds:
- * C++14: [travis_qmake_gcc_cpp14_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gcov)
