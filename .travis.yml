@@ -15,6 +15,7 @@ script:
   - ./build.sh
   - ./travis_qmake_gcc_cpp11_gcov
   - ./get_code_cov.sh
-
-after_success: 
   - codecov
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
