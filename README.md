@@ -27,3 +27,4 @@ Less complex builds:
  * C++98: [travis_qmake_gcc_cpp98_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_gcov)
  * No gcov: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
 
+We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
