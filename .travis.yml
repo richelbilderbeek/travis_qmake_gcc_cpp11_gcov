@@ -1,4 +1,5 @@
 sudo: require
+dist: xenial
 language: cpp
 compiler: gcc
 
