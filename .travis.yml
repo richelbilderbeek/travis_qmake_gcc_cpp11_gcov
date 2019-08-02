@@ -3,18 +3,10 @@ dist: bionic
 language: cpp
 compiler: gcc
 
-before_install:
-  # C++11
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
+install: 
+  - sudo apt update -qq
   # Codecov
   - sudo pip install codecov
-
-install: 
-  # C++11
-  - sudo apt-get install -qq g++-5
-  # Codecov
-  - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-5 90
 
 script: 
   - ./build.sh
