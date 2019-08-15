@@ -12,8 +12,8 @@ script:
   - ./build.sh
   - ./travis_qmake_gcc_cpp11_gcov
   # Codecov
-  - ./get_code_cov.sh
-  - codecov
+  - ./get_code_cov.sh >/dev/null
+  - codecov >/dev/null
 
 after_success:
   # Codecov
