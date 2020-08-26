@@ -2,6 +2,7 @@
 
 [![codecov.io](https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_gcov/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_gcov?branch=master)
 [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_gcov.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11_gcov)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-cpp11.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-cpp11?ref=badge_shield)
 
 The goal of this project is to have a clean Travis CI build, with specs:
  * C++ version: `C++11`
@@ -44,3 +45,7 @@ Repository tokens are required for (a) all private repos, (b) public repos not u
 - [Community Boards](https://community.codecov.io)
 - [Support](https://codecov.io/support)
 - [Documentation](https://docs.codecov.io)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-cpp11.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-cpp11?ref=badge_large)
